@@ -19,7 +19,7 @@ Crear la base de datos vacía en MySQL (desde phpMyAdmin o por consola):
 CREATE DATABASE biblio2 CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
 ```
 
-Si el proyecto incluye un volcado SQL inicial, importarlo ahora. Si usa migraciones de CodeIgniter, se ejecutan más adelante (paso 4).
+Si el proyecto incluye un volcado SQL inicial, importarlo ahora.
 
 ### 2. Copia de archivos
 
