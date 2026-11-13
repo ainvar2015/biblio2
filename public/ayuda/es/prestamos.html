@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Préstamos activos e histórico · Manual de usuario · Gestión de Bibliotecas</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<aside>
+  <div class="brand">Gestión de Bibliotecas<small>Manual de usuario v1.0</small></div>
+  <nav>
+    <a href="index.html" data-slug="index">Inicio</a>
+    <a href="dashboard.html" data-slug="dashboard">Dashboard</a>
+    <a href="calendario.html" data-slug="calendario">Calendario</a>
+    <a href="bibliotecas.html" data-slug="bibliotecas">Bibliotecas</a>
+    <a href="libros.html" data-slug="libros">Ver libros</a>
+    <div class="group">ALTAS</div>
+    <a href="alta-libro.html" data-slug="alta-libro" class="sub">Alta de libro</a>
+    <a href="alta-catalogos.html" data-slug="alta-catalogos" class="sub">Autores, editoriales y géneros</a>
+    <div class="group">EDITAR</div>
+    <a href="editar-libro.html" data-slug="editar-libro" class="sub">Editar libro</a>
+    <a href="editar-catalogos.html" data-slug="editar-catalogos" class="sub">Editar catálogos</a>
+    <div class="group">PRÉSTAMOS</div>
+    <a href="nuevo-prestamo.html" data-slug="nuevo-prestamo" class="sub">Nuevo préstamo</a>
+    <a href="prestamos.html" class="active" data-slug="prestamos" class="sub">Préstamos activos e histórico</a>
+    <a href="reservas.html" data-slug="reservas">Reservas</a>
+    <div class="group">USUARIOS</div>
+    <a href="usuarios.html" data-slug="usuarios" class="sub">Usuarios y niveles</a>
+    <a href="settings.html" data-slug="settings">Settings</a>
+    <a href="perfil.html" data-slug="perfil">Perfil</a>
+  </nav>
+</aside>
+<main>
+  <div class="topbar">
+    <div class="lang"><a href="index.html" class="current">ES</a> · <a href="../en/prestamos.html">EN</a></div>
+    <div class="lang"><a href="index.html">&larr; Índice de ayuda</a></div>
+  </div>
+  <h1>Préstamos activos e histórico</h1>
+  <p class="subtitle">Seguimiento de préstamos en curso, prórrogas y devoluciones</p>
+<p>Gestiona los préstamos en curso y consulta los ya finalizados.</p>
+<h2>Préstamos activos</h2>
+<ul><li>El listado muestra libro, prestatario, fecha de préstamo y fecha de devolución prevista.</li>
+<li>Los préstamos vencidos o próximos a vencer aparecen destacados.</li></ul>
+<h2>Acciones sobre un préstamo</h2>
+<table><tr><th>Acción</th><th>Qué hace</th></tr>
+<tr><td>Devolver</td><td>Registra la devolución real y libera el libro.</td></tr>
+<tr><td>+7 días</td><td>Amplía la fecha de devolución una semana.</td></tr>
+<tr><td>Recordatorio</td><td>Envía un email al prestatario avisando de la devolución pendiente.</td></tr></table>
+<h2>Histórico</h2>
+<p>La vista de histórico lista todos los préstamos finalizados, con la fecha de devolución real, útil para estadísticas de uso.</p>
+<div class="note">Los campos de fecha registrados son <code>fecha_prestamo</code> y <code>fecha_devolucion</code> (prevista); la devolución real queda anotada en <code>fecha_devolucion_real</code> con cualquier incidencia en <code>notas</code>.</div>
+  <footer>Documento generado para la aplicación. Revise los textos contra las pantallas reales antes de publicar.</footer>
+</main>
+</body>
+</html>

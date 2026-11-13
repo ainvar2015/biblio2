@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Autores, editoriales y géneros · Manual de usuario · Gestión de Bibliotecas</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<aside>
+  <div class="brand">Gestión de Bibliotecas<small>Manual de usuario v1.0</small></div>
+  <nav>
+    <a href="index.html" data-slug="index">Inicio</a>
+    <a href="dashboard.html" data-slug="dashboard">Dashboard</a>
+    <a href="calendario.html" data-slug="calendario">Calendario</a>
+    <a href="bibliotecas.html" data-slug="bibliotecas">Bibliotecas</a>
+    <a href="libros.html" data-slug="libros">Ver libros</a>
+    <div class="group">ALTAS</div>
+    <a href="alta-libro.html" data-slug="alta-libro" class="sub">Alta de libro</a>
+    <a href="alta-catalogos.html" class="active" data-slug="alta-catalogos" class="sub">Autores, editoriales y géneros</a>
+    <div class="group">EDITAR</div>
+    <a href="editar-libro.html" data-slug="editar-libro" class="sub">Editar libro</a>
+    <a href="editar-catalogos.html" data-slug="editar-catalogos" class="sub">Editar catálogos</a>
+    <div class="group">PRÉSTAMOS</div>
+    <a href="nuevo-prestamo.html" data-slug="nuevo-prestamo" class="sub">Nuevo préstamo</a>
+    <a href="prestamos.html" data-slug="prestamos" class="sub">Préstamos activos e histórico</a>
+    <a href="reservas.html" data-slug="reservas">Reservas</a>
+    <div class="group">USUARIOS</div>
+    <a href="usuarios.html" data-slug="usuarios" class="sub">Usuarios y niveles</a>
+    <a href="settings.html" data-slug="settings">Settings</a>
+    <a href="perfil.html" data-slug="perfil">Perfil</a>
+  </nav>
+</aside>
+<main>
+  <div class="topbar">
+    <div class="lang"><a href="index.html" class="current">ES</a> · <a href="../en/alta-catalogos.html">EN</a></div>
+    <div class="lang"><a href="index.html">&larr; Índice de ayuda</a></div>
+  </div>
+  <h1>Autores, editoriales y géneros</h1>
+  <p class="subtitle">Gestión de los catálogos auxiliares del sistema</p>
+<p>Gestiona los <strong>catálogos auxiliares</strong> de los que depende el alta de libros.</p>
+<h2>Alta de un elemento</h2>
+<ol><li>Acceda a <em>Altas → Autores, editoriales y géneros</em> y elija la pestaña correspondiente.</li>
+<li>Pulse <strong>Nuevo</strong> y complete el nombre (y apellidos, en el caso de autores).</li><li>Guarde.</li></ol>
+<h2>Listados</h2>
+<ul><li>Cada pestaña muestra su tabla con buscador, paginación y ordenación.</li>
+<li>Use los iconos de cada fila para editar o borrar.</li></ul>
+<h2>Borrado</h2>
+<p>El borrado se realiza mediante una ventana de confirmación (modal) que muestra el elemento afectado antes de ejecutar la acción.</p>
+<div class="warn">Si intenta borrar un autor, editorial o género que está asignado a libros, la aplicación le avisará: reasigne esos libros antes de continuar.</div>
+  <footer>Documento generado para la aplicación. Revise los textos contra las pantallas reales antes de publicar.</footer>
+</main>
+</body>
+</html>

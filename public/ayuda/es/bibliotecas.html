@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bibliotecas · Manual de usuario · Gestión de Bibliotecas</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<aside>
+  <div class="brand">Gestión de Bibliotecas<small>Manual de usuario v1.0</small></div>
+  <nav>
+    <a href="index.html" data-slug="index">Inicio</a>
+    <a href="dashboard.html" data-slug="dashboard">Dashboard</a>
+    <a href="calendario.html" data-slug="calendario">Calendario</a>
+    <a href="bibliotecas.html" class="active" data-slug="bibliotecas">Bibliotecas</a>
+    <a href="libros.html" data-slug="libros">Ver libros</a>
+    <div class="group">ALTAS</div>
+    <a href="alta-libro.html" data-slug="alta-libro" class="sub">Alta de libro</a>
+    <a href="alta-catalogos.html" data-slug="alta-catalogos" class="sub">Autores, editoriales y géneros</a>
+    <div class="group">EDITAR</div>
+    <a href="editar-libro.html" data-slug="editar-libro" class="sub">Editar libro</a>
+    <a href="editar-catalogos.html" data-slug="editar-catalogos" class="sub">Editar catálogos</a>
+    <div class="group">PRÉSTAMOS</div>
+    <a href="nuevo-prestamo.html" data-slug="nuevo-prestamo" class="sub">Nuevo préstamo</a>
+    <a href="prestamos.html" data-slug="prestamos" class="sub">Préstamos activos e histórico</a>
+    <a href="reservas.html" data-slug="reservas">Reservas</a>
+    <div class="group">USUARIOS</div>
+    <a href="usuarios.html" data-slug="usuarios" class="sub">Usuarios y niveles</a>
+    <a href="settings.html" data-slug="settings">Settings</a>
+    <a href="perfil.html" data-slug="perfil">Perfil</a>
+  </nav>
+</aside>
+<main>
+  <div class="topbar">
+    <div class="lang"><a href="index.html" class="current">ES</a> · <a href="../en/bibliotecas.html">EN</a></div>
+    <div class="lang"><a href="index.html">&larr; Índice de ayuda</a></div>
+  </div>
+  <h1>Bibliotecas</h1>
+  <p class="subtitle">Gestión de bibliotecas y selector de biblioteca activa</p>
+<p>La aplicación admite <strong>varias bibliotecas</strong> bajo la misma instalación. Este módulo gestiona cada una de ellas.</p>
+<h2>Qué puede hacer</h2>
+<ul><li>Ver el listado de bibliotecas dadas de alta.</li><li>Dar de alta una nueva biblioteca con sus datos (nombre, dirección, contacto).</li>
+<li>Editar los datos de una biblioteca existente.</li></ul>
+<h2>Cambiar de biblioteca activa</h2>
+<p>Los usuarios con perfil de <strong>superadministrador</strong> ven un selector de biblioteca en la barra superior o en este módulo:
+todo lo que dé de alta (libros, préstamos, usuarios) quedará asociado a la biblioteca seleccionada.</p>
+<div class="warn">Antes de trabajar, compruebe que está en la biblioteca correcta: los catálogos y préstamos están separados por biblioteca.</div>
+  <footer>Documento generado para la aplicación. Revise los textos contra las pantallas reales antes de publicar.</footer>
+</main>
+</body>
+</html>

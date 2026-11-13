@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Inicio · Manual de usuario · Gestión de Bibliotecas</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<aside>
+  <div class="brand">Gestión de Bibliotecas<small>Manual de usuario v1.0</small></div>
+  <nav>
+    <a href="index.html" class="active" data-slug="index">Inicio</a>
+    <a href="dashboard.html" data-slug="dashboard">Dashboard</a>
+    <a href="calendario.html" data-slug="calendario">Calendario</a>
+    <a href="bibliotecas.html" data-slug="bibliotecas">Bibliotecas</a>
+    <a href="libros.html" data-slug="libros">Ver libros</a>
+    <div class="group">ALTAS</div>
+    <a href="alta-libro.html" data-slug="alta-libro" class="sub">Alta de libro</a>
+    <a href="alta-catalogos.html" data-slug="alta-catalogos" class="sub">Autores, editoriales y géneros</a>
+    <div class="group">EDITAR</div>
+    <a href="editar-libro.html" data-slug="editar-libro" class="sub">Editar libro</a>
+    <a href="editar-catalogos.html" data-slug="editar-catalogos" class="sub">Editar catálogos</a>
+    <div class="group">PRÉSTAMOS</div>
+    <a href="nuevo-prestamo.html" data-slug="nuevo-prestamo" class="sub">Nuevo préstamo</a>
+    <a href="prestamos.html" data-slug="prestamos" class="sub">Préstamos activos e histórico</a>
+    <a href="reservas.html" data-slug="reservas">Reservas</a>
+    <div class="group">USUARIOS</div>
+    <a href="usuarios.html" data-slug="usuarios" class="sub">Usuarios y niveles</a>
+    <a href="settings.html" data-slug="settings">Settings</a>
+    <a href="perfil.html" data-slug="perfil">Perfil</a>
+  </nav>
+</aside>
+<main>
+  <div class="topbar">
+    <div class="lang"><a href="index.html" class="current">ES</a> · <a href="../en/index.html">EN</a></div>
+    <div class="lang"></div>
+  </div>
+  <h1>Inicio</h1>
+  <p class="subtitle">Introducción, acceso y estructura del manual</p>
+<div class="card"><p>Esta aplicación es un <strong>sistema de gestión de bibliotecas</strong>: permite catalogar libros
+con sus autores, editoriales y géneros, gestionar préstamos a socios y externos, administrar reservas con cola de espera
+y consultar la actividad desde un dashboard con gráficos.</p></div>
+<h2>Cómo usar este manual</h2>
+<p>El menú de la izquierda replica la estructura del menú de la aplicación, incluidos los grupos desplegables
+(<em>Altas</em>, <em>Editar</em>, <em>Préstamos</em> y <em>Usuarios</em>). Cada página explica para qué sirve el módulo,
+cómo acceder y el flujo de trabajo habitual.</p>
+<h2>Acceso</h2>
+<ol><li>Abra la URL de la aplicación e introduzca su usuario y contraseña.</li>
+<li>Tras validar, será redirigido al Dashboard.</li>
+<li>Si su sesión queda inactiva un tiempo, la aplicación le pedirá autenticarse de nuevo.</li></ol>
+<div class="note"><strong>Nota:</strong> los cuadros azules contienen consejos; los naranjas, advertencias importantes.</div>
+<div class="warn"><strong>Importante:</strong> cierre siempre sesión con <em>Logout</em> en equipos compartidos.</div>
+  <footer>Documento generado para la aplicación. Revise los textos contra las pantallas reales antes de publicar.</footer>
+</main>
+</body>
+</html>

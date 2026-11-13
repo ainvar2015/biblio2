@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Active loans & history · User manual · Library Management</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<aside>
+  <div class="brand">Library Management<small>User manual v1.0</small></div>
+  <nav>
+    <a href="index.html" data-slug="index">Home</a>
+    <a href="dashboard.html" data-slug="dashboard">Dashboard</a>
+    <a href="calendario.html" data-slug="calendario">Calendar</a>
+    <a href="bibliotecas.html" data-slug="bibliotecas">Libraries</a>
+    <a href="libros.html" data-slug="libros">Browse books</a>
+    <div class="group">ADD NEW</div>
+    <a href="alta-libro.html" data-slug="alta-libro" class="sub">Add a book</a>
+    <a href="alta-catalogos.html" data-slug="alta-catalogos" class="sub">Authors, publishers & genres</a>
+    <div class="group">EDIT</div>
+    <a href="editar-libro.html" data-slug="editar-libro" class="sub">Edit a book</a>
+    <a href="editar-catalogos.html" data-slug="editar-catalogos" class="sub">Edit catalogues</a>
+    <div class="group">LOANS</div>
+    <a href="nuevo-prestamo.html" data-slug="nuevo-prestamo" class="sub">New loan</a>
+    <a href="prestamos.html" class="active" data-slug="prestamos" class="sub">Active loans & history</a>
+    <a href="reservas.html" data-slug="reservas">Reservations</a>
+    <div class="group">USERS</div>
+    <a href="usuarios.html" data-slug="usuarios" class="sub">Users & levels</a>
+    <a href="settings.html" data-slug="settings">Settings</a>
+    <a href="perfil.html" data-slug="perfil">Profile</a>
+  </nav>
+</aside>
+<main>
+  <div class="topbar">
+    <div class="lang"><a href="../es/prestamos.html">ES</a> · <a class="current">EN</a></div>
+    <div class="lang"><a href="index.html">&larr; Help index</a></div>
+  </div>
+  <h1>Active loans & history</h1>
+  <p class="subtitle">Tracking active loans, extensions and returns</p>
+<p>Manage ongoing loans and review completed ones.</p>
+<h2>Active loans</h2>
+<ul><li>The listing shows book, borrower, loan date and expected return date.</li>
+<li>Overdue or soon-due loans are highlighted.</li></ul>
+<h2>Actions on a loan</h2>
+<table><tr><th>Action</th><th>What it does</th></tr>
+<tr><td>Return</td><td>Records the actual return and frees the book.</td></tr>
+<tr><td>+7 days</td><td>Extends the return date by one week.</td></tr>
+<tr><td>Reminder</td><td>Sends the borrower an email about the pending return.</td></tr></table>
+<h2>History</h2>
+<p>The history view lists all completed loans with the actual return date, useful for usage statistics.</p>
+<div class="note">The tracked date fields are <code>fecha_prestamo</code> and <code>fecha_devolucion</code> (expected); the actual return is stored in <code>fecha_devolucion_real</code>, with any incident noted in <code>notas</code>.</div>
+  <footer>Generated for the application. Please review the texts against the actual screens before publishing.</footer>
+</main>
+</body>
+</html>

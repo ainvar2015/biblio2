@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nuevo préstamo · Manual de usuario · Gestión de Bibliotecas</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<aside>
+  <div class="brand">Gestión de Bibliotecas<small>Manual de usuario v1.0</small></div>
+  <nav>
+    <a href="index.html" data-slug="index">Inicio</a>
+    <a href="dashboard.html" data-slug="dashboard">Dashboard</a>
+    <a href="calendario.html" data-slug="calendario">Calendario</a>
+    <a href="bibliotecas.html" data-slug="bibliotecas">Bibliotecas</a>
+    <a href="libros.html" data-slug="libros">Ver libros</a>
+    <div class="group">ALTAS</div>
+    <a href="alta-libro.html" data-slug="alta-libro" class="sub">Alta de libro</a>
+    <a href="alta-catalogos.html" data-slug="alta-catalogos" class="sub">Autores, editoriales y géneros</a>
+    <div class="group">EDITAR</div>
+    <a href="editar-libro.html" data-slug="editar-libro" class="sub">Editar libro</a>
+    <a href="editar-catalogos.html" data-slug="editar-catalogos" class="sub">Editar catálogos</a>
+    <div class="group">PRÉSTAMOS</div>
+    <a href="nuevo-prestamo.html" class="active" data-slug="nuevo-prestamo" class="sub">Nuevo préstamo</a>
+    <a href="prestamos.html" data-slug="prestamos" class="sub">Préstamos activos e histórico</a>
+    <a href="reservas.html" data-slug="reservas">Reservas</a>
+    <div class="group">USUARIOS</div>
+    <a href="usuarios.html" data-slug="usuarios" class="sub">Usuarios y niveles</a>
+    <a href="settings.html" data-slug="settings">Settings</a>
+    <a href="perfil.html" data-slug="perfil">Perfil</a>
+  </nav>
+</aside>
+<main>
+  <div class="topbar">
+    <div class="lang"><a href="index.html" class="current">ES</a> · <a href="../en/nuevo-prestamo.html">EN</a></div>
+    <div class="lang"><a href="index.html">&larr; Índice de ayuda</a></div>
+  </div>
+  <h1>Nuevo préstamo</h1>
+  <p class="subtitle">Registro de la entrega de un libro a socio o externo</p>
+<p>Registra la entrega de un libro a un socio o a un externo.</p>
+<h2>Pasos</h2>
+<ol><li>En <em>Préstamos → Nuevo préstamo</em>, busque y seleccione el <strong>libro</strong> (solo aparecen los disponibles).</li>
+<li>Identifique al <strong>prestatario</strong>: seleccione un socio existente o rellene los datos del externo (nombre, DNI o email).</li>
+<li>La <strong>fecha de devolución</strong> se propone automáticamente según las reglas de la biblioteca; puede ajustarla manualmente si el caso lo requiere.</li>
+<li>Confirme el préstamo.</li></ol>
+<div class="note">Si el libro tiene reservas pendientes, el sistema se lo indicará: atienda primero la cola de reservas.</div>
+<h2>Tipos de prestatario</h2>
+<table><tr><th>Tipo</th><th>Quién es</th></tr>
+<tr><td>Socio</td><td>Usuario dado de alta en <em>Usuarios</em> con su ficha completa.</td></tr>
+<tr><td>Externo</td><td>Persona sin ficha: se identifica con nombre y DNI o email en el momento del préstamo.</td></tr></table>
+  <footer>Documento generado para la aplicación. Revise los textos contra las pantallas reales antes de publicar.</footer>
+</main>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Usuarios y niveles · Manual de usuario · Gestión de Bibliotecas</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<aside>
+  <div class="brand">Gestión de Bibliotecas<small>Manual de usuario v1.0</small></div>
+  <nav>
+    <a href="index.html" data-slug="index">Inicio</a>
+    <a href="dashboard.html" data-slug="dashboard">Dashboard</a>
+    <a href="calendario.html" data-slug="calendario">Calendario</a>
+    <a href="bibliotecas.html" data-slug="bibliotecas">Bibliotecas</a>
+    <a href="libros.html" data-slug="libros">Ver libros</a>
+    <div class="group">ALTAS</div>
+    <a href="alta-libro.html" data-slug="alta-libro" class="sub">Alta de libro</a>
+    <a href="alta-catalogos.html" data-slug="alta-catalogos" class="sub">Autores, editoriales y géneros</a>
+    <div class="group">EDITAR</div>
+    <a href="editar-libro.html" data-slug="editar-libro" class="sub">Editar libro</a>
+    <a href="editar-catalogos.html" data-slug="editar-catalogos" class="sub">Editar catálogos</a>
+    <div class="group">PRÉSTAMOS</div>
+    <a href="nuevo-prestamo.html" data-slug="nuevo-prestamo" class="sub">Nuevo préstamo</a>
+    <a href="prestamos.html" data-slug="prestamos" class="sub">Préstamos activos e histórico</a>
+    <a href="reservas.html" data-slug="reservas">Reservas</a>
+    <div class="group">USUARIOS</div>
+    <a href="usuarios.html" class="active" data-slug="usuarios" class="sub">Usuarios y niveles</a>
+    <a href="settings.html" data-slug="settings">Settings</a>
+    <a href="perfil.html" data-slug="perfil">Perfil</a>
+  </nav>
+</aside>
+<main>
+  <div class="topbar">
+    <div class="lang"><a href="index.html" class="current">ES</a> · <a href="../en/usuarios.html">EN</a></div>
+    <div class="lang"><a href="index.html">&larr; Índice de ayuda</a></div>
+  </div>
+  <h1>Usuarios y niveles</h1>
+  <p class="subtitle">Alta de usuarios, niveles de acceso y seguridad de sesión</p>
+<p>Administra las personas que usan la aplicación y sus permisos.</p>
+<h2>Niveles de acceso</h2>
+<table><tr><th>Nivel</th><th>Acceso</th></tr>
+<tr><td>Superadministrador</td><td>Control total, incluida la gestión de bibliotecas y cualquier biblioteca.</td></tr>
+<tr><td>Administrador / bibliotecario</td><td>Gestión completa de su biblioteca: catálogo, préstamos, reservas y usuarios.</td></tr>
+<tr><td>Socio</td><td>Consulta de catálogo y de sus propios préstamos y reservas.</td></tr></table>
+<h2>Tareas habituales</h2>
+<ul><li><strong>Alta:</strong> cree la ficha con nombre, email y nivel de acceso.</li>
+<li><strong>Edición:</strong> modifique datos o cambie el nivel de un usuario.</li>
+<li><strong>Bloqueo:</strong> desactive el acceso de un usuario sin borrar su historial.</li></ul>
+<div class="warn">La sesión se cierra automáticamente tras un período de inactividad (filtro de verificación). Esto protega los datos en puestos compartidos: exige credenciales de nuevo tras el tiempo configurado.</div>
+  <footer>Documento generado para la aplicación. Revise los textos contra las pantallas reales antes de publicar.</footer>
+</main>
+</body>
+</html>

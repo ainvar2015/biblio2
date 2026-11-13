@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Browse books · User manual · Library Management</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<aside>
+  <div class="brand">Library Management<small>User manual v1.0</small></div>
+  <nav>
+    <a href="index.html" data-slug="index">Home</a>
+    <a href="dashboard.html" data-slug="dashboard">Dashboard</a>
+    <a href="calendario.html" data-slug="calendario">Calendar</a>
+    <a href="bibliotecas.html" data-slug="bibliotecas">Libraries</a>
+    <a href="libros.html" class="active" data-slug="libros">Browse books</a>
+    <div class="group">ADD NEW</div>
+    <a href="alta-libro.html" data-slug="alta-libro" class="sub">Add a book</a>
+    <a href="alta-catalogos.html" data-slug="alta-catalogos" class="sub">Authors, publishers & genres</a>
+    <div class="group">EDIT</div>
+    <a href="editar-libro.html" data-slug="editar-libro" class="sub">Edit a book</a>
+    <a href="editar-catalogos.html" data-slug="editar-catalogos" class="sub">Edit catalogues</a>
+    <div class="group">LOANS</div>
+    <a href="nuevo-prestamo.html" data-slug="nuevo-prestamo" class="sub">New loan</a>
+    <a href="prestamos.html" data-slug="prestamos" class="sub">Active loans & history</a>
+    <a href="reservas.html" data-slug="reservas">Reservations</a>
+    <div class="group">USERS</div>
+    <a href="usuarios.html" data-slug="usuarios" class="sub">Users & levels</a>
+    <a href="settings.html" data-slug="settings">Settings</a>
+    <a href="perfil.html" data-slug="perfil">Profile</a>
+  </nav>
+</aside>
+<main>
+  <div class="topbar">
+    <div class="lang"><a href="../es/libros.html">ES</a> · <a class="current">EN</a></div>
+    <div class="lang"><a href="index.html">&larr; Help index</a></div>
+  </div>
+  <h1>Browse books</h1>
+  <p class="subtitle">General catalogue, search and detail view</p>
+<p><strong>Browse books</strong> is the general catalogue: search, filter and view each book's full record.</p>
+<h2>Browsing the catalogue</h2>
+<ul><li>Use the search box to find by title, ISBN or author.</li>
+<li>Genre or publisher filters narrow the results.</li>
+<li>The listing shows <strong>all authors</strong> of each work, comma-separated.</li></ul>
+<h2>Book detail</h2>
+<ol><li>Click a book to open its detail window.</li>
+<li>You will see the cover, synopsis, authors and availability status.</li></ol>
+<h2>Covers: the 3 cases</h2>
+<table><tr><th>Situation</th><th>What is shown</th></tr>
+<tr><td>The image file exists on the server</td><td>The book's real cover.</td></tr>
+<tr><td>A cover is registered but the file is missing</td><td>The placeholder image <code>no-imagen.jpg</code>.</td></tr>
+<tr><td>No cover is registered for the book</td><td>The placeholder image <code>no-imagen.jpg</code>.</td></tr></table>
+<div class="note">The detail window is <strong>read-only</strong>: use <em>Edit</em> in the menu to change any data.</div>
+  <footer>Generated for the application. Please review the texts against the actual screens before publishing.</footer>
+</main>
+</body>
+</html>

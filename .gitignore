@@ -1,0 +1,11 @@
+#Carpetas Varias
+Oldies
+tests
+Varios
+BD - copia
+
+#archivos
+*.log
+.env
+ci_session*
+debugbar*

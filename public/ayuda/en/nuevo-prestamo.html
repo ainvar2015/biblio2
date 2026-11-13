@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>New loan · User manual · Library Management</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<aside>
+  <div class="brand">Library Management<small>User manual v1.0</small></div>
+  <nav>
+    <a href="index.html" data-slug="index">Home</a>
+    <a href="dashboard.html" data-slug="dashboard">Dashboard</a>
+    <a href="calendario.html" data-slug="calendario">Calendar</a>
+    <a href="bibliotecas.html" data-slug="bibliotecas">Libraries</a>
+    <a href="libros.html" data-slug="libros">Browse books</a>
+    <div class="group">ADD NEW</div>
+    <a href="alta-libro.html" data-slug="alta-libro" class="sub">Add a book</a>
+    <a href="alta-catalogos.html" data-slug="alta-catalogos" class="sub">Authors, publishers & genres</a>
+    <div class="group">EDIT</div>
+    <a href="editar-libro.html" data-slug="editar-libro" class="sub">Edit a book</a>
+    <a href="editar-catalogos.html" data-slug="editar-catalogos" class="sub">Edit catalogues</a>
+    <div class="group">LOANS</div>
+    <a href="nuevo-prestamo.html" class="active" data-slug="nuevo-prestamo" class="sub">New loan</a>
+    <a href="prestamos.html" data-slug="prestamos" class="sub">Active loans & history</a>
+    <a href="reservas.html" data-slug="reservas">Reservations</a>
+    <div class="group">USERS</div>
+    <a href="usuarios.html" data-slug="usuarios" class="sub">Users & levels</a>
+    <a href="settings.html" data-slug="settings">Settings</a>
+    <a href="perfil.html" data-slug="perfil">Profile</a>
+  </nav>
+</aside>
+<main>
+  <div class="topbar">
+    <div class="lang"><a href="../es/nuevo-prestamo.html">ES</a> · <a class="current">EN</a></div>
+    <div class="lang"><a href="index.html">&larr; Help index</a></div>
+  </div>
+  <h1>New loan</h1>
+  <p class="subtitle">Recording the handover of a book to a member or external borrower</p>
+<p>Record the handover of a book to a member or an external borrower.</p>
+<h2>Steps</h2>
+<ol><li>Under <em>Loans → New loan</em>, search for and select the <strong>book</strong> (only available ones are listed).</li>
+<li>Identify the <strong>borrower</strong>: pick an existing member or fill in the external borrower's details (name, ID or email).</li>
+<li>The <strong>return date</strong> is proposed automatically according to the library's rules; you can adjust it manually if needed.</li>
+<li>Confirm the loan.</li></ol>
+<div class="note">If the book has pending reservations, the system will tell you: serve the reservation queue first.</div>
+<h2>Borrower types</h2>
+<table><tr><th>Type</th><th>Who it is</th></tr>
+<tr><td>Member</td><td>A user registered under <em>Users</em> with a complete profile.</td></tr>
+<tr><td>External</td><td>A person without a profile: identified by name and ID or email at loan time.</td></tr></table>
+  <footer>Generated for the application. Please review the texts against the actual screens before publishing.</footer>
+</main>
+</body>
+</html>

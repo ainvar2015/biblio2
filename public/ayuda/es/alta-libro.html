@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Alta de libro · Manual de usuario · Gestión de Bibliotecas</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<aside>
+  <div class="brand">Gestión de Bibliotecas<small>Manual de usuario v1.0</small></div>
+  <nav>
+    <a href="index.html" data-slug="index">Inicio</a>
+    <a href="dashboard.html" data-slug="dashboard">Dashboard</a>
+    <a href="calendario.html" data-slug="calendario">Calendario</a>
+    <a href="bibliotecas.html" data-slug="bibliotecas">Bibliotecas</a>
+    <a href="libros.html" data-slug="libros">Ver libros</a>
+    <div class="group">ALTAS</div>
+    <a href="alta-libro.html" class="active" data-slug="alta-libro" class="sub">Alta de libro</a>
+    <a href="alta-catalogos.html" data-slug="alta-catalogos" class="sub">Autores, editoriales y géneros</a>
+    <div class="group">EDITAR</div>
+    <a href="editar-libro.html" data-slug="editar-libro" class="sub">Editar libro</a>
+    <a href="editar-catalogos.html" data-slug="editar-catalogos" class="sub">Editar catálogos</a>
+    <div class="group">PRÉSTAMOS</div>
+    <a href="nuevo-prestamo.html" data-slug="nuevo-prestamo" class="sub">Nuevo préstamo</a>
+    <a href="prestamos.html" data-slug="prestamos" class="sub">Préstamos activos e histórico</a>
+    <a href="reservas.html" data-slug="reservas">Reservas</a>
+    <div class="group">USUARIOS</div>
+    <a href="usuarios.html" data-slug="usuarios" class="sub">Usuarios y niveles</a>
+    <a href="settings.html" data-slug="settings">Settings</a>
+    <a href="perfil.html" data-slug="perfil">Perfil</a>
+  </nav>
+</aside>
+<main>
+  <div class="topbar">
+    <div class="lang"><a href="index.html" class="current">ES</a> · <a href="../en/alta-libro.html">EN</a></div>
+    <div class="lang"><a href="index.html">&larr; Índice de ayuda</a></div>
+  </div>
+  <h1>Alta de libro</h1>
+  <p class="subtitle">Registro manual o automático por ISBN</p>
+<p>Registra un libro nuevo en el catálogo, <strong>manualmente o por ISBN</strong> con autocompletado.</p>
+<h2>Alta por ISBN (recomendado)</h2>
+<ol><li>En <em>Altas → Alta de libro</em>, escriba el ISBN en el campo correspondiente.</li>
+<li>La aplicación consulta una base de datos externa y rellena automáticamente título, autores, editorial, género y portada.</li>
+<li>Revise los datos sugeridos y corrija lo que necesite.</li><li>Guarde el libro.</li></ol>
+<h2>Alta manual</h2>
+<ol><li>Rellene el formulario: título, ISBN, autores, editorial, género y sinopsis.</li>
+<li>Suba la portada si la tiene; si no, el libro usará la imagen de sustitución.</li><li>Guarde.</li></ol>
+<div class="note">Si el autocompletado no encuentra el ISBN (obras antiguas o muy locales), complete el formulario a mano: el alta manual siempre está disponible.</div>
+<div class="warn">Compruebe que los autores y la editorial ya existen en los catálogos; si no, créelos primero desde <em>Altas → Autores, editoriales y géneros</em>.</div>
+  <footer>Documento generado para la aplicación. Revise los textos contra las pantallas reales antes de publicar.</footer>
+</main>
+</body>
+</html>

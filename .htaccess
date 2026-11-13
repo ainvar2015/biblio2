@@ -1,0 +1,11 @@
+RewriteEngine On
+RewriteBase /
+
+# Evita el acceso directo a index.php
+RewriteCond %{THE_REQUEST} \s/+index\.php[\s?]
+RewriteRule ^ index.php [R=301,L]
+
+# Redirige todo a index.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.+)$ index.php [L]

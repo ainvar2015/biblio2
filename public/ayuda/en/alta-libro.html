@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Add a book · User manual · Library Management</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<aside>
+  <div class="brand">Library Management<small>User manual v1.0</small></div>
+  <nav>
+    <a href="index.html" data-slug="index">Home</a>
+    <a href="dashboard.html" data-slug="dashboard">Dashboard</a>
+    <a href="calendario.html" data-slug="calendario">Calendar</a>
+    <a href="bibliotecas.html" data-slug="bibliotecas">Libraries</a>
+    <a href="libros.html" data-slug="libros">Browse books</a>
+    <div class="group">ADD NEW</div>
+    <a href="alta-libro.html" class="active" data-slug="alta-libro" class="sub">Add a book</a>
+    <a href="alta-catalogos.html" data-slug="alta-catalogos" class="sub">Authors, publishers & genres</a>
+    <div class="group">EDIT</div>
+    <a href="editar-libro.html" data-slug="editar-libro" class="sub">Edit a book</a>
+    <a href="editar-catalogos.html" data-slug="editar-catalogos" class="sub">Edit catalogues</a>
+    <div class="group">LOANS</div>
+    <a href="nuevo-prestamo.html" data-slug="nuevo-prestamo" class="sub">New loan</a>
+    <a href="prestamos.html" data-slug="prestamos" class="sub">Active loans & history</a>
+    <a href="reservas.html" data-slug="reservas">Reservations</a>
+    <div class="group">USERS</div>
+    <a href="usuarios.html" data-slug="usuarios" class="sub">Users & levels</a>
+    <a href="settings.html" data-slug="settings">Settings</a>
+    <a href="perfil.html" data-slug="perfil">Profile</a>
+  </nav>
+</aside>
+<main>
+  <div class="topbar">
+    <div class="lang"><a href="../es/alta-libro.html">ES</a> · <a class="current">EN</a></div>
+    <div class="lang"><a href="index.html">&larr; Help index</a></div>
+  </div>
+  <h1>Add a book</h1>
+  <p class="subtitle">Manual registration or automatic by ISBN</p>
+<p>Register a new book in the catalogue, <strong>manually or by ISBN</strong> with autocomplete.</p>
+<h2>Adding by ISBN (recommended)</h2>
+<ol><li>Under <em>Add New → Add a book</em>, type the ISBN in its field.</li>
+<li>The application queries an external database and fills in title, authors, publisher, genre and cover automatically.</li>
+<li>Review the suggested data and correct whatever is needed.</li><li>Save the book.</li></ol>
+<h2>Manual entry</h2>
+<ol><li>Fill in the form: title, ISBN, authors, publisher, genre and synopsis.</li>
+<li>Upload a cover if you have one; otherwise the book will use the placeholder image.</li><li>Save.</li></ol>
+<div class="note">If autocomplete cannot find the ISBN (older or very local works), complete the form by hand: manual entry is always available.</div>
+<div class="warn">Make sure the authors and publisher already exist in the catalogues; if not, create them first under <em>Add New → Authors, publishers &amp; genres</em>.</div>
+  <footer>Generated for the application. Please review the texts against the actual screens before publishing.</footer>
+</main>
+</body>
+</html>

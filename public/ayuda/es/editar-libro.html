@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Editar libro · Manual de usuario · Gestión de Bibliotecas</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<aside>
+  <div class="brand">Gestión de Bibliotecas<small>Manual de usuario v1.0</small></div>
+  <nav>
+    <a href="index.html" data-slug="index">Inicio</a>
+    <a href="dashboard.html" data-slug="dashboard">Dashboard</a>
+    <a href="calendario.html" data-slug="calendario">Calendario</a>
+    <a href="bibliotecas.html" data-slug="bibliotecas">Bibliotecas</a>
+    <a href="libros.html" data-slug="libros">Ver libros</a>
+    <div class="group">ALTAS</div>
+    <a href="alta-libro.html" data-slug="alta-libro" class="sub">Alta de libro</a>
+    <a href="alta-catalogos.html" data-slug="alta-catalogos" class="sub">Autores, editoriales y géneros</a>
+    <div class="group">EDITAR</div>
+    <a href="editar-libro.html" class="active" data-slug="editar-libro" class="sub">Editar libro</a>
+    <a href="editar-catalogos.html" data-slug="editar-catalogos" class="sub">Editar catálogos</a>
+    <div class="group">PRÉSTAMOS</div>
+    <a href="nuevo-prestamo.html" data-slug="nuevo-prestamo" class="sub">Nuevo préstamo</a>
+    <a href="prestamos.html" data-slug="prestamos" class="sub">Préstamos activos e histórico</a>
+    <a href="reservas.html" data-slug="reservas">Reservas</a>
+    <div class="group">USUARIOS</div>
+    <a href="usuarios.html" data-slug="usuarios" class="sub">Usuarios y niveles</a>
+    <a href="settings.html" data-slug="settings">Settings</a>
+    <a href="perfil.html" data-slug="perfil">Perfil</a>
+  </nav>
+</aside>
+<main>
+  <div class="topbar">
+    <div class="lang"><a href="index.html" class="current">ES</a> · <a href="../en/editar-libro.html">EN</a></div>
+    <div class="lang"><a href="index.html">&larr; Índice de ayuda</a></div>
+  </div>
+  <h1>Editar libro</h1>
+  <p class="subtitle">Modificación de los datos y la portada de un libro</p>
+<p>Modifica los datos de un libro existente: título, autores, editorial, género, sinopsis y portada.</p>
+<h2>Flujo de edición</h2>
+<ol><li>Acceda a <em>Editar → Editar libro</em> y busque el libro (por título o ISBN).</li>
+<li>Selecciónelo para cargar el formulario con sus datos actuales.</li>
+<li>Ajuste los campos necesarios. Puede marcar <strong>varios autores</strong> si la obra es colectiva.</li>
+<li>Si sube una portada nueva, reemplazará a la anterior.</li><li>Guarde los cambios.</li></ol>
+<h2>Edición frente a alta</h2>
+<p>El formulario discrimina automáticamente entre modo edición y modo alta según el contexto: al venir de
+<em>Editar</em> verá los datos cargados y el botón actualizará en lugar de crear un registro nuevo.</p>
+<div class="note">La portada sigue los mismos 3 supuestos que el catálogo: archivo real, imagen registrada pero ausente, o sin registrar (se muestra <code>no-imagen.jpg</code>).</div>
+  <footer>Documento generado para la aplicación. Revise los textos contra las pantallas reales antes de publicar.</footer>
+</main>
+</body>
+</html>
